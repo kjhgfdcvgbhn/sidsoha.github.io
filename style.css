@@ -1,10 +1,31 @@
 body{
     height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
+    animation:  changeBg 10s linear infinite;
+    justify-content: center;
     font-family: "Raleway", Arial, sans-serif;
-    background: #7f9ead;
+}
+
+@keyframes changeBg {
+    0% {
+        background-color: rgba(255, 192, 203, 0.918);
+    }
+    20% {
+        background-color: rgba(0, 255, 242, 0.966);
+    }
+    40% {
+        background-color: rgba(42, 165, 42, 0.959);
+    }
+    60% {
+        background-color: rgba(222, 138, 135, 0.979);
+    }
+    80% {
+        background-color: rgb(128, 128, 128);
+    }
+    100% {
+        background-color:  rgba(255, 192, 203, 0.918);
+    }
 }
 
 .card{
@@ -45,8 +66,14 @@ img{
     transition: 0.3s;
 }
 
-.content h3 {
-    color: black
+.content h2 {
+    color: black;
+    text-shadow: 3px 3px 5px hsl(0, 100%, 61%), -3px -3px 5px #7f9ead;
+}
+
+.content p {
+    color: black;
+    text-shadow: 3px 3px 5px hsl(0, 100%, 61%), -3px -3px 5px #7f9ead;
 }
 
 .card:hover  > .content {
