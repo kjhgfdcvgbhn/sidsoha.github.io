@@ -71,7 +71,7 @@ ul {
     top: 8rem;
     opacity: 0;
     animation-name: untoldcoding1;
-    animation-duration: 10s;
+    animation-duration: 5s;
 }
 
 .second-text{
@@ -80,11 +80,11 @@ ul {
     color: black;
     position: absolute;
     text-shadow: 3px 4px 8px rgba(0, 110, 255, 0.952), -3px -4px 9px #fff;
-    top: 7rem;
+    top: 8rem;
     opacity: 0;
     animation-name: untoldcoding2;
     animation-duration: 10s;
-    animation-delay: 10s;
+    animation-delay: 5s;
 }
 
 .third-text{
@@ -97,7 +97,7 @@ ul {
     opacity: 0;
     animation-name: untoldcoding3;
     animation-duration: 10s;
-    animation-delay: 20s;
+    animation-delay: 15s;
 }
 
 .fourth-text{
@@ -110,7 +110,7 @@ ul {
     opacity: 0;
     animation-name: untoldcoding4;
     animation-duration: 10s;
-    animation-delay: 30s;
+    animation-delay: 25s;
 }
 
 .fifth-text{
@@ -119,14 +119,14 @@ ul {
     color: black;
     position: absolute;
     text-shadow: 3px 4px 8px rgba(0, 110, 255, 0.952), -3px -4px 9px #fff;
-    top: 8rem;
+    top: 7rem;
     opacity: 0;
     animation-name: untoldcoding5;
-    animation-duration: 8s;
-    animation-delay: 40s;
+    animation-duration: 10s;
+    animation-delay: 35s;
 }
 
- .sixth-text{
+.sixth-text{
     font-size: 2.5rem;
     font-style: italic;
     color: black;
@@ -134,9 +134,22 @@ ul {
     text-shadow: 3px 4px 8px rgba(0, 110, 255, 0.952), -3px -4px 9px #fff;
     top: 8rem;
     opacity: 0;
-    animation-name: untoldcoding5;
+    animation-name: untoldcoding6;
+    animation-duration: 8s;
+    animation-delay: 45s;
+}
+
+ .seven-text{
+    font-size: 2.5rem;
+    font-style: italic;
+    color: black;
+    position: absolute;
+    text-shadow: 3px 4px 8px rgba(0, 110, 255, 0.952), -3px -4px 9px #fff;
+    top: 8rem;
+    opacity: 0;
+    animation-name: untoldcoding7;
     animation-duration: 50s;
-    animation-delay: 47s;
+    animation-delay: 53s;
  }
  
 @keyframes untoldcoding1{
@@ -209,6 +222,20 @@ ul {
     }
 }
 @keyframes untoldcoding6{
+    0%{
+        top: -3rem;
+        opacity: 0;
+    }
+    75%{
+        top: 35%;
+        opacity: 1;
+    }
+    100%{
+        
+        opacity: 0;
+    }
+}
+@keyframes untoldcoding7{
     0%{
         top: -3rem;
         opacity: 0;
